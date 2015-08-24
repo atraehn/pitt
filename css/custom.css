@@ -1,0 +1,63 @@
+/*  Removable CSS  */
+
+
+.post,
+.cover,
+.footer 
+{padding: 20px;}
+
+img.moonrise{
+    max-height: 75%;
+    max-width: 75%;
+}
+.post {
+    background-color: #ffffff;
+	position: relative;
+    z-index: 1;
+    padding-bottom: 40px;
+    margin:10px;
+	-moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.cover{
+    position:relative;
+    background-color: none;
+    z-index: 1;
+    height: 150px;
+    bottom: 0px;
+}
+.footer {
+    position: fixed;
+    background-color: #dae4e8;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0px;
+    z-index: 0;
+}
+
+.text {
+    font: 20px Oswald;
+    color: #292929;
+	text-align: center;
+}
+.footer .text {
+/*    font-family: "Arial Narrow",Arial,sans-serif;*/
+    
+	font: 16px OswaldLight;
+	color: #6c6c6c;
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    right:20px;
+}
+
+#shadow{
+    width: inherit;
+    height: 2px;
+    background-color: #3776bf;
+    position: relative;
+    z-index:1;
+}
+    
